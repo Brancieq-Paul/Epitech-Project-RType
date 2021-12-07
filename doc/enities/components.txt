@@ -1,0 +1,122 @@
+Each component has 2 mandatory fields: type, that name the type of components, and def, that define the configuration of the component. Depends of the type.
+
+
+
+Drawable:
+
+    Example:
+
+        {
+            "type" : "drawable",
+            "def": {
+                "texture" : "start.png",
+                "repeated": false,
+                "para_vel": 0
+            }
+        }
+
+    The Drawable component take a path to an image file in the "texture" definition. It will display it in the windows. Repeated and para_vel defines a backgroud
+    that slides à "para_vel" speed. Repeated and para_vel are false and true by default.
+
+Movable:
+
+    Example:
+
+        {
+            "type" : "movable"
+            "def": {
+                "vel_x": 2,
+                "vel_y": 1
+            }
+        }
+
+    The Movable component allow the entity to send a velocity to the server, based on inputs and velocity configs.
+
+Collider:
+
+    Example:
+
+        {
+            "type" : "movable"
+            "def": {
+                "dim_x" : 200,
+                "dim_y" : 200,
+                "offset_x" : 0,
+                "offset_y" : 0
+            }
+        }
+
+    Create a collider.
+
+MouseHandler:
+
+    Example:
+
+        {
+            "type" : "movable"
+            "def": {
+                "dim_x" : 200,
+                "dim_y" : 200,
+                "offset_x" : 0,
+                "offset_y" : 0
+            }
+        }
+
+    Create a clickable collider.
+
+Text:
+
+    Example:
+
+        {
+            "type": "textInput",
+            "def": {
+                "text": "lol",
+                "font": "font.ttf",
+                "color": "blue"
+            }
+        }
+
+    Color define:
+
+        {
+            {"black", sf::Color::Black},
+            {"blue", sf::Color::Blue},
+            {"green", sf::Color::Green},
+            {"red", sf::Color::Red},
+            {"white", sf::Color::White},
+            {"yellow", sf::Color::Yellow},
+            {"magenta", sf::Color::Magenta}
+        };
+
+    The text component.
+
+Text input:
+
+    Example:
+
+        {
+            "type": "textInput",
+            "def": {
+                "text": "lol",
+                "font": "font.ttf",
+                "limit": 10,
+                "color": "blue",
+                "rectColor": "red",
+                "rectBorderColor": "green"
+            }
+        }
+
+    Color define:
+
+        {
+            {"black", sf::Color::Black},
+            {"blue", sf::Color::Blue},
+            {"green", sf::Color::Green},
+            {"red", sf::Color::Red},
+            {"white", sf::Color::White},
+            {"yellow", sf::Color::Yellow},
+            {"magenta", sf::Color::Magenta}
+        };
+
+    The text input component.

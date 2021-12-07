@@ -1,0 +1,25 @@
+{
+    "data": {
+        "type": 2,
+        "handleLayer": 0
+    },
+    "data_txt": {},
+    "components": [{
+            "type": "drawable",
+            "def": {
+                "texture": "space2.png",
+                "repeated": true,
+                "para_vel": 2
+            }
+        },
+        {
+            "type": "MouseHandler",
+            "def": {
+                "dim_x": 200,
+                "dim_y": 200,
+                "offset_x": 0,
+                "offset_y": 0
+            }
+        }
+    ]
+}

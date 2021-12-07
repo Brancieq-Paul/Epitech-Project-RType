@@ -1,0 +1,35 @@
+{
+    "data": {
+        "type": 1,
+        "handleLayer": 5
+    },
+    "data_txt": {},
+    "components": [{
+            "type": "drawable",
+            "def": {
+                "texture": "pie.png"
+            }
+        },
+        {
+            "type": "movable",
+            "def": {
+                "vel_x": 2,
+                "vel_y": 2
+            }
+        },
+        {
+            "type": "collider",
+            "def": {
+                "dim_x": 40,
+                "dim_y": 40,
+                "offset_x": 0,
+                "offset_y": 0,
+                "layers": [
+                    1,
+                    2,
+                    4
+                ]
+            }
+        }
+    ]
+}

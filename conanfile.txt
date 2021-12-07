@@ -1,0 +1,17 @@
+[requires]
+asio/1.19.2
+boost/1.77.0
+sfml/2.5.1
+nlohmann_json/3.10.4
+
+[options]
+boost:shared=True
+sfml:shared=True
+sfml:graphics=True
+sfml:window=True
+
+[generators]
+cmake
+
+[imports]
+lib, *.so* -> lib

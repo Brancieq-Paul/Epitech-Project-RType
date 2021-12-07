@@ -1,0 +1,17 @@
+{
+    "data": {
+        "type": 4
+    },
+    "data_txt": {},
+    "components": [{
+        "type": "textInput",
+        "def": {
+            "text": "lol",
+            "font": "font.ttf",
+            "limit": 10,
+            "color": "blue",
+            "rectColor": "red",
+            "rectBorderColor": "green"
+        }
+    }]
+}

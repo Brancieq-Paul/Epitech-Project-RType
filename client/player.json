@@ -1,0 +1,11 @@
+{
+    "player": [{
+        "id": "Player",
+        "transform": [{
+            "x": "100",
+            "y": "100",
+            "z": "100"
+        }],
+        "texture": "path"
+    }]
+}

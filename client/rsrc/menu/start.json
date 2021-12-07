@@ -1,0 +1,24 @@
+{
+    "data" : {
+        "type" : 1
+    },
+    "data_txt" : {
+    },
+    "components" : [
+        {
+            "type" : "drawable",
+            "def": {
+                "texture" : "start.png"
+            }
+        },
+        {
+            "type" : "MouseHandler",
+            "def": {
+                "dim_x" : 200,
+                "dim_y" : 200,
+                "offset_x" : 0,
+                "offset_y" : 0
+            }
+        }
+    ]
+}

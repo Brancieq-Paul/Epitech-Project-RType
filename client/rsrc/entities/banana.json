@@ -1,0 +1,37 @@
+{
+    "data": {
+        "type": 3,
+        "handleLayer": 5
+    },
+    "data_txt": {},
+    "components": [{
+            "type": "drawable",
+            "def": {
+                "texture": "banana.png"
+            }
+        },
+        {
+            "type": "movable",
+            "def": {
+                "vel_x_linear": 0,
+                "vel_y_linear": 2,
+                "bound_x": 40,
+                "bound_y": 40
+            }
+        },
+        {
+            "type": "collider",
+            "def": {
+                "dim_x": 40,
+                "dim_y": 40,
+                "offset_x": 0,
+                "offset_y": 0,
+                "layers": [
+                    1,
+                    2,
+                    4
+                ]
+            }
+        }
+    ]
+}

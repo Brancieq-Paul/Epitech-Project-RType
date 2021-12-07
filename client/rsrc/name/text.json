@@ -1,0 +1,14 @@
+{
+    "data": {
+        "type": 1
+    },
+    "data_txt": {},
+    "components": [{
+        "type": "text",
+        "def": {
+            "text": "FIRST ENTER YOUR NAME : ",
+            "font": "Blankblizzkrieg.ttf",
+            "color": "blue"
+        }
+    }]
+}

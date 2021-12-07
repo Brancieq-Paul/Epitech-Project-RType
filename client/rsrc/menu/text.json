@@ -1,0 +1,14 @@
+{
+    "data": {
+        "type": 2
+    },
+    "data_txt": {},
+    "components": [{
+        "type": "text",
+        "def": {
+            "text": "",
+            "font": "Blankblizzkrieg.ttf",
+            "color": "blue"
+        }
+    }]
+}

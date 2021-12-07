@@ -1,0 +1,33 @@
+Example: entity.json
+
+{
+    "data": {
+        "type": 1,
+        "handleLayer": 5
+    },
+    "data_txt": {},
+    "components": [
+        {
+            "type": "textInput",
+            "def": {
+                "text": "lol",
+                "font": "font.ttf",
+                "limit": "10"
+            }
+        }
+    ]
+}
+
+Sections:
+
+All sections in the entity.json are mandatory:
+
+    "data":{} Will contain all statistics and integer datas about the entity.
+    Only one data is mandatory: "type". It's an identifier for the type of the entity. Two entity in the same entity can't have the same type.
+    "handleLayer" is the order of update in the engine. The default layer if no value was given is 5. Layer minimal is 0, maximal is 10.
+
+
+
+    "data_txt":{} Will contain all text data about the entity. No mandatory data.
+
+    "components":[] Will contain all definitions of components.

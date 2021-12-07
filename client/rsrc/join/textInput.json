@@ -1,0 +1,17 @@
+{
+    "data": {
+        "type": 4
+    },
+    "data_txt": {},
+    "components": [{
+        "type": "textInput",
+        "def": {
+            "text": "1",
+            "font": "font.ttf",
+            "limit": 3,
+            "color": "blue",
+            "rectColor": "red",
+            "rectBorderColor": "green"
+        }
+    }]
+}

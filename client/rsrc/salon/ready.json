@@ -1,0 +1,22 @@
+{
+    "data": {
+        "type": 3
+    },
+    "data_txt": {},
+    "components": [{
+            "type": "drawable",
+            "def": {
+                "texture": "check.png"
+            }
+        },
+        {
+            "type": "MouseHandler",
+            "def": {
+                "dim_x": 200,
+                "dim_y": 200,
+                "offset_x": 0,
+                "offset_y": 0
+            }
+        }
+    ]
+}
